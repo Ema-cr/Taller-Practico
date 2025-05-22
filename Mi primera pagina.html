@@ -7,6 +7,13 @@
     <link rel="icon" href="Assets/pagina.png" type="image/x-icon">
 </head>
 <body>
+    <nav>
+        <ul>
+        <li><a href="acerca_de.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    </nav>
+    
 <h1 class="titulo">Hola Mundo</h1>
 <p>Esta es mi primera pagina en HTML</p>
 <ul>
@@ -26,10 +33,9 @@
 <a href="https://www.google.com/" target="_blank">Google</a>
 <a href="contacto.html" target="_blank">Contacto</a><br>
 <a href="https://riwi.io/?gad_source=1&gad_campaignid=22557917681&gclid=EAIaIQobChMIytaikKqyjQMVQYZaBR0rqTP5EAAYASAAEgImefD_BwE"target=_blank><img src="https://riwi.io/wp-content/uploads/2023/07/Fondo-claro-logo2-1.png" alt="logo" width="200" height="60"></a><br>
-<a href="contacto.html">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" width="100" alt="Guasap"><br>
+<a href="contacto.html"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" width="100" alt="Guasap"></a><br>
 <video width="420" height="400" controls>
-    <source src="/Media/4K 2K 1080p 720p 480p video resolution test.mp4" type="video/mp4">
+    <source src="Media/4K 2K 1080p 720p 480p video resolution test.mp4" type="video/mp4">
 </video>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xOMMV_qXcQ8?si=Ny7NWjZAn7sWskgu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </a><br>
@@ -59,10 +65,35 @@
     <td>24</td>
     <td>Bolivia</td>
 </tr>
-</table>
-<nav>
-    <p>Acerca de </p>
-    <p>Contacto</p>
-</nav>
+</table><br>
+
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+<label for="email">Email:</label>
+<input type="text" id="email" name="email" placeholder="Email"><br><br>
+<label for="mensaje">Mensaje</label><br>
+<textarea rows="10" cols="35"></textarea><br>
+<button>Enviar</button><br><br>
+
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+<label for="correo">Correo:</label>
+<input type="text" id="correo" name="correo" placeholder="Correo"><br>
+<label for="contraseña">Contraseña:</label>
+<input type="text" id="contraseña" name="contraseña" placeholder="Contraseña"><br>
+<label for="edad">Edad:</label>
+<input type="text" id="edad" name="edad" placeholder="Edad"><br>
+<label for="fecha de nacimiento">Fecha de nacimiento:</label>
+<input type="text" id="fecha de nacimiento" name="fecha de nacimiento" placeholder="Fecha de nacimiento"><br>
+<p>Que sexo eres?<button>Masculino</button><button>Femenino</button></p>
+<label for="ciudad">De que ciudad eres?</label>
+<select name="ciudad" id="ciudad">
+    <option value="">Por favor, elije una ciudad.</option>
+    <option value="">Medellin</option>
+    <option value="">Maracaibo</option>
+</select><br>
+<input type="checkbox"> Aceptas los terminos?
+<button>Enviar</button>
+
 </body>
 </html>
