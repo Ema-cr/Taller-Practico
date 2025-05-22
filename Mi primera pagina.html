@@ -41,7 +41,7 @@
 </a><br>
 <table style="height: auto;" width="10%" border="5">
 <style>
-    table{background-color: aqua;}
+    table{background-color:lightsteelblue}
     table{border: px solid black;
         border-radius: 1%;}
 </style>
@@ -85,7 +85,15 @@
 <input type="text" id="edad" name="edad" placeholder="Edad"><br>
 <label for="fecha de nacimiento">Fecha de nacimiento:</label>
 <input type="text" id="fecha de nacimiento" name="fecha de nacimiento" placeholder="Fecha de nacimiento"><br>
-<p>Que sexo eres?<button>Masculino</button><button>Femenino</button></p>
+<label for="masculino">
+    Masculino
+    <input type="radio" name="sexo" id="masculino">
+</label>
+<label for="femenino">
+Femenino
+<input type="radio" name="sexo" id="femenino"><br>
+</label>
+
 <label for="ciudad">De que ciudad eres?</label>
 <select name="ciudad" id="ciudad">
     <option value="">Por favor, elije una ciudad.</option>
